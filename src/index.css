@@ -59,12 +59,29 @@ button:focus-visible {
 	text-align: center;
 }
 
+.title-post {
+	color: #000;
+	font-size: 1.25rem;
+}
+
 .my-card {
-	background-color: #9ac8d2;
+	background-color: #afbabc;
 	width: auto;
 	max-width: 500px;
 	padding: 1em;
 	border-radius: 10px;
+}
+.my-card p {
+	color: #666666;
+}
+.my-card h3 {
+	color: #605a5a;
+	font-style: italic;
+	font-size: 0.75rem;
+}
+
+.my-card hr {
+	border: #000 1px solid;
 }
 
 .post-container {
@@ -74,8 +91,9 @@ button:focus-visible {
 	margin: 0 auto;
 	gap: 10px;
 	width: 75%;
-	background-color: #fff;
+	background-color: #363636;
 	padding: 1em;
+	border-radius: 10px;
 }
 
 @media (prefers-color-scheme: light) {

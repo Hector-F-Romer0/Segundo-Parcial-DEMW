@@ -3,9 +3,10 @@ import React from "react";
 const Post = ({ data }) => {
 	return (
 		<div className="my-card">
-			<h2>{data?.title}</h2>
+			<h2 className="title-post">{data?.title}</h2>
+			<hr />
 			<p>{data?.body}</p>
-			<h4>{`Creado por: ${data?.userId}`}</h4>
+			<h3>{`Creado por: ${data?.userId}`}</h3>
 		</div>
 	);
 };
